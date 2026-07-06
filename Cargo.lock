@@ -54,6 +54,7 @@ dependencies = [
 [[package]]
 name = "controller-radio-interface"
 version = "0.1.0"
+source = "git+https://github.com/CarlOsterberg/controller-radio-interface#06c95762dc2c73a440dd2c08b632df7ed69caa8e"
 
 [[package]]
 name = "evdev"
