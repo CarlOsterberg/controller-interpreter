@@ -1,0 +1,9 @@
+[package]
+name = "controller-interpreter"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+evdev = "0.12"
+rppal = "0.18"
+controller-radio-interface = { path = "../controller-radio-interface" }
