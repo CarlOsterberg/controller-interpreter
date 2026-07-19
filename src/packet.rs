@@ -22,8 +22,8 @@ pub fn button_from_evdev(key: Key) -> Option<Button> {
     match key {
         Key::BTN_SOUTH => Some(Button::South),
         Key::BTN_EAST => Some(Button::East),
-        Key::BTN_NORTH => Some(Button::North),
-        Key::BTN_WEST => Some(Button::West),
+        Key::BTN_WEST => Some(Button::North), // West and North seem flipped
+        Key::BTN_NORTH => Some(Button::West), // West and North seem flipped
         Key::BTN_TL => Some(Button::LeftBumper),
         Key::BTN_TR => Some(Button::RightBumper),
         Key::BTN_START => Some(Button::Start),
